@@ -8,20 +8,20 @@ namespace EmpPayRollUsingThread
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Employee Payroll problem using thread");
-            List<EmployeeDetails> employeeDetails = new List<EmployeeDetails>();
-            employeeDetails.Add(new EmployeeDetails(1, "Joy", "58745689", "Kolkata", "Engineer", 'M', 457258.00, 250.00, 350.00, 300.00, "Kolkata", "India")),
-            employeeDetails.Add(new EmployeeDetails(1, "Joy", "58745689", "Kolkata", "Engineer", 'M', 457258.00, 250.00, 350.00, 300.00, "Kolkata", "India")),
-            employeeDetails.Add(new EmployeeDetails(1, "Joy", "58745689", "Kolkata", "Engineer", 'M', 457258.00, 250.00, 350.00, 300.00, "Kolkata", "India")),
-            employeeDetails.Add(new EmployeeDetails(1, "Joy", "58745689", "Kolkata", "Engineer", 'M', 457258.00, 250.00, 350.00, 300.00, "Kolkata", "India")),
-            employeeDetails.Add(new EmployeeDetails(1, "Joy", "58745689", "Kolkata", "Engineer", 'M', 457258.00, 250.00, 350.00, 300.00, "Kolkata", "India")),
-            employeeDetails.Add(new EmployeeDetails(1, "Joy", "58745689", "Kolkata", "Engineer", 'M', 457258.00, 250.00, 350.00, 300.00, "Kolkata", "India")),
-            employeeDetails.Add(new EmployeeDetails(1, "Joy", "58745689", "Kolkata", "Engineer", 'M', 457258.00, 250.00, 350.00, 300.00, "Kolkata", "India"))
+            //List<EmployeeDetails> employeeDetails = new List<EmployeeDetails>();
+            //employeeDetails.Add(new EmployeeDetails(1, "Ganesh", "58745689", "Nashik", "Engineer", 'M', 457258.00, 250.00, 350.00, 300.00, "Kolkata", "India")),
+            //employeeDetails.Add(new EmployeeDetails(1, "Harshal", "58745679", "Pune", "Q_Engineer", 'M', 457258.00, 250.00, 350.00, 300.00, "Kolkata", "India")),
+            //employeeDetails.Add(new EmployeeDetails(1, "Advik", "58745688", "Mumbai", "Developer", 'M', 457258.00, 250.00, 350.00, 300.00, "Kolkata", "India")),
+            //employeeDetails.Add(new EmployeeDetails(1, "Sindhutva", "58745689", "Kathiyawad", "Banker", 'M', 457258.00, 250.00, 350.00, 300.00, "Kolkata", "India")),
+            //employeeDetails.Add(new EmployeeDetails(1, "Pruthviraj", "58745689", "Jalandar", "Engineer", 'M', 457258.00, 250.00, 350.00, 300.00, "Kolkata", "India")),
+            //employeeDetails.Add(new EmployeeDetails(1, "Sankatmochak", "58745689", "Rampur", "Engineer", 'M', 457258.00, 250.00, 350.00, 300.00, "Kolkata", "India")),
+            //employeeDetails.Add(new EmployeeDetails(1, "Joy", "58745689", "Kolkata", "Engineer", 'M', 457258.00, 250.00, 350.00, 300.00, "Kolkata", "India"))
 
-            EmployeePayrollOperation employeePayrollOperation = new EmployeePayrollOperation();
-            employeePayrollOperation.addEmployeePayroll(employeeDetails);
-            employeePayrollOpreation.EmployeePalyRoll(employeeDeatails);
+            //EmployeePayrollOperation employeePayrollOperation = new EmployeePayrollOperation();
+            //employeePayrollOperation.addEmployeePayroll(employeeDetails);
+            //employeePayrollOpreation.EmployeePalyRoll(employeeDeatails);
 
-            Parallel Threading
+            //Parallel Threading
 
 
             string[] words = CreateWordArray(@"http://www.gutenberg.org/files/54700/54700-0.txt");
